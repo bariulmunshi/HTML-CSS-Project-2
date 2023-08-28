@@ -90,6 +90,44 @@ header {
 /* ========================
      Hot Deal Section
     ======================= */
+
+.shop-section {
+  margin: 0px 200px;
+  margin-bottom: 120px;
+  text-align: center;
+}
+.all-shop {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.shop {
+  width: 600px;
+  height: 400px;
+}
+.shop img {
+  width: 80%;
+  height: 80%;
+  border-radius: 20px;
+  object-fit: cover;
+}
+.branch {
+  color: #e55473;
+  font-size: 20px;
+  /* box-shadow: 0 1px 2px rgba(; */
+}
+.visit-btn {
+  padding: 10px 33px;
+  border-radius: 8px;
+  background: #f3a909;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  border: 0;
+}
+/* ========================
+     Hot Deal Section
+    ======================= */
 .hot-section {
   display: flex;
   column-gap: 150px;
@@ -178,7 +216,7 @@ footer {
   font-weight: 400;
 }
 .footer-copy-right {
-  color: rgba(255, 255, 255, 0.40);
+  color: rgba(255, 255, 255, 0.4);
   font-size: 16px;
   font-weight: 400;
 }
