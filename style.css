@@ -24,6 +24,7 @@ body {
   font-size: 18px;
   font-weight: 400;
   margin: 32px auto;
+  text-align: center;
 }
 
 /* Banner section */
@@ -41,4 +42,39 @@ header {
   color: #272727;
   font-size: 60px;
   font-weight: 800;
+}
+
+/* Feature flower section */
+.feature-section{
+  margin-top: 140px;
+  margin:0px 200px ;
+  margin-bottom: 120px;
+}
+.feature-flowers {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+.feature-flower {
+  text-align: center;
+  height: 400px;
+}
+
+.feature-flower img {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  height: 80%;
+  width: 80%;
+  padding: 20px 20px 0px 20px;
+}
+.flower-details {
+  margin: 128px 0px;
+  display: flex;
+  justify-content: center;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  gap: 86px;
+}
+.flower-detail {
+  padding: 86px;
 }
