@@ -1,0 +1,44 @@
+/* shared style */
+body {
+  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  margin: 0%;
+}
+.btn-primary {
+  padding: 20px 43px;
+  border-radius: 8px;
+  background: #e55473;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  border: 0;
+}
+.section-title {
+  text-align: center;
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+.section-sub-title {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  margin: 32px auto;
+}
+
+/* Banner section */
+header {
+  background: rgba(229, 84, 115, 0.1);
+}
+.banner {
+  display: flex;
+  align-items: center;
+  margin: 0 150px;
+  padding-top: 30px;
+  gap: 50px;
+}
+.header-title {
+  color: #272727;
+  font-size: 60px;
+  font-weight: 800;
+}
