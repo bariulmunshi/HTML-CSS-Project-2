@@ -153,3 +153,32 @@ header {
   font-style: normal;
   font-weight: 400;
 }
+
+/* ========================
+     Footer-section 
+    ======================= */
+footer {
+  background: #272727;
+  padding: 100px 0px;
+  text-align: center;
+}
+.footer-title {
+  color: #e55473;
+  font-size: 48px;
+  font-weight: 800;
+}
+#shop-text {
+  color: white;
+  font-size: 48px;
+  font-weight: 800;
+}
+.footer-section-description {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 18px;
+  font-weight: 400;
+}
+.footer-copy-right {
+  color: rgba(255, 255, 255, 0.40);
+  font-size: 16px;
+  font-weight: 400;
+}
